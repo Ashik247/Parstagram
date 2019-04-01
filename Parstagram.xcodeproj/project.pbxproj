@@ -10,6 +10,7 @@
 		3B85C8E35D2F7137F8DA2239 /* Pods_ParstagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2EB47DA730B0EC48B853394 /* Pods_ParstagramTests.framework */; };
 		86FD467F6705EEA04483F2D5 /* Pods_ParstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD111E2D8EFC73726A84CD4 /* Pods_ParstagramUITests.framework */; };
 		9C7F26FB53429E2E99447044 /* Pods_Parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1DCC6DD9643465D829D95A /* Pods_Parstagram.framework */; };
+		DA05CB662252B10D002008A5 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA05CB652252B10D002008A5 /* CommentCell.swift */; };
 		DAE6166F2244487500BCE976 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE6166E2244487500BCE976 /* AppDelegate.swift */; };
 		DAE616742244487500BCE976 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE616722244487500BCE976 /* Main.storyboard */; };
 		DAE616762244487600BCE976 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE616752244487600BCE976 /* Assets.xcassets */; };
@@ -48,6 +49,7 @@
 		4AD111E2D8EFC73726A84CD4 /* Pods_ParstagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParstagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A1DCC6DD9643465D829D95A /* Pods_Parstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2EB47DA730B0EC48B853394 /* Pods_ParstagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParstagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA05CB652252B10D002008A5 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		DAE6166B2244487500BCE976 /* Parstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE6166E2244487500BCE976 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAE616732244487500BCE976 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				DAE616752244487600BCE976 /* Assets.xcassets */,
 				DAE616772244487600BCE976 /* LaunchScreen.storyboard */,
 				DAE6167A2244487600BCE976 /* Info.plist */,
+				DA05CB652252B10D002008A5 /* CommentCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -326,6 +330,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +416,7 @@
 				DAEAE2C82245E7E9004D0897 /* FeedViewController.swift in Sources */,
 				DAE6166F2244487500BCE976 /* AppDelegate.swift in Sources */,
 				DAEAE2CE2246FD64004D0897 /* PostCell.swift in Sources */,
+				DA05CB662252B10D002008A5 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
